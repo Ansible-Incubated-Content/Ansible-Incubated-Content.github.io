@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: "Red Hat Text","RedHatText","Overpass",Overpass,Arial,sans-serif;
+}
+
+a.red_button {
+    position: relative;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e00;
+}
+
+.band {
+    position: relative;
+    margin: 0;
+    padding: 10px;
+}
+
+.center_band {
+    width: 65%;
+    margin: auto;
+}
+
+.section_title {
+    margin-bottom: 20px;
+    color: #e00;
+    font-family: RedHatText,"Red Hat Text",Overpass,Overpass,"Helvetica Neue",Arial,sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.page_title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    line-height: normal;
+}
+
+#nav_band {
+    z-index: 1000;
+    padding: 20px;
+    padding-left: 32px;
+    background-color: #151515;
+}
+
+#header_band {
+    background-color: rgb(243,243,243);
+    margin: 0;
+    min-height: 475px;
+    overflow: hidden;
+}
+
+#header_logo {
+    position: absolute;
+    top: -50px;
+    right: 140px;
+    width: 100%;
+    text-align: right;
+}
+
+#header_logo img {
+    display: inline-block;
+    position: relative;
+    width: 1960px;
+    height: auto;
+}
+
+#header_content {
+    position: relative;
+    width: 1136px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+#header_content #header_content_left {
+    width: 650px;
+    line-height: 2.0;
+}
+
+#header_content #header_content_left #header_description {
+    margin-bottom: 20px;
+}
