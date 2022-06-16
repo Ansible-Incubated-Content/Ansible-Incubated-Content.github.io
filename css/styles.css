@@ -4,6 +4,35 @@ body {
     font-family: "Red Hat Text","RedHatText","Overpass",Overpass,Arial,sans-serif;
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+h2 {
+    font-family: "Red Hat Display","RedHatDisplay","Overpass",Overpass,Arial,sans-serif;
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2.center {
+    margin: auto;
+}
+
+h2.center.max_width {
+    max-width: 600px;
+}
+
+p {
+    font-family: "Red Hat Display","RedHatDisplay","Overpass",Overpass,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 2.0;
+}
+
 a.red_button {
     position: relative;
     display: inline-block;
@@ -19,10 +48,31 @@ a.red_button {
     background-color: #e00;
 }
 
+a.blue_link {
+    font-size: 1em;
+    font-weight: 700;
+    color: #06c;
+    text-decoration: none;
+}
+
+a.blue_link::after {
+    content: "\2794";
+    margin-left: 10px;
+}
+
 .band {
     position: relative;
     margin: 0;
     padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center_max_width {
+    text-align: center;
+    max-width: 600px;
 }
 
 .center_band {
@@ -35,46 +85,30 @@ a.red_button {
     color: #e00;
     font-family: RedHatText,"Red Hat Text",Overpass,Overpass,"Helvetica Neue",Arial,sans-serif;
     font-size: 18px;
+    font-weight: 400;
     text-transform: uppercase;
     line-height: normal;
 }
 
-.page_title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    line-height: normal;
-}
-
-#nav_band {
+.nav_band {
+    position: relative;
     z-index: 1000;
     padding: 20px;
     padding-left: 32px;
     background-color: #151515;
 }
 
-#header_band {
-    background-color: rgb(243,243,243);
-    margin: 0;
-    min-height: 475px;
-    overflow: hidden;
-}
-
-#header_logo {
-    position: absolute;
-    top: -50px;
-    right: 140px;
-    width: 100%;
-    text-align: right;
-}
-
-#header_logo img {
-    display: inline-block;
+.content_band {
     position: relative;
-    width: 1960px;
-    height: auto;
+    margin: 0;
+    padding: 0 0 20px 0;
 }
 
-#header_content {
+.content_band.alt{
+    background-color: rgb(243,243,243);
+}
+
+.content_area {
     position: relative;
     width: 1136px;
     padding-top: 20px;
@@ -82,11 +116,36 @@ a.red_button {
     margin: auto;
 }
 
-#header_content #header_content_left {
+#title_band {
+    position: relative;
+    background-color: rgb(243,243,243);
+    margin: 0;
+    padding: 0;
+    min-height: 475px;
+    overflow: hidden;
+}
+
+#title_logo {
+    position: absolute;
+    top: -50px;
+    right: 140px;
+    width: 100%;
+    text-align: right;
+}
+
+#title_logo img {
+    display: inline-block;
+    position: relative;
+    width: 1960px;
+    height: auto;
+}
+
+#title_content #title_content_left {
     width: 650px;
     line-height: 2.0;
 }
 
-#header_content #header_content_left #header_description {
+#title_content #title_content_left #title_description {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
