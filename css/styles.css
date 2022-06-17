@@ -20,11 +20,21 @@ h2 {
 }
 
 h2.center {
-    margin: auto;
+    margin: 20px auto;
 }
 
 h2.center.max_width {
     max-width: 600px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    color: #e00;
+    font-family: RedHatText,"Red Hat Text",Overpass,Overpass,"Helvetica Neue",Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: normal;
 }
 
 p {
@@ -75,22 +85,12 @@ a.blue_link::after {
     max-width: 600px;
 }
 
-.center_band {
+div.center_band {
     width: 65%;
     margin: auto;
 }
 
-.section_title {
-    margin-bottom: 20px;
-    color: #e00;
-    font-family: RedHatText,"Red Hat Text",Overpass,Overpass,"Helvetica Neue",Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: normal;
-}
-
-.nav_band {
+div.nav_band {
     position: relative;
     z-index: 1000;
     padding: 20px;
@@ -98,34 +98,34 @@ a.blue_link::after {
     background-color: #151515;
 }
 
-.content_band {
+div.content_band {
     position: relative;
     margin: 0;
-    padding: 0 0 20px 0;
+    padding: 20px;
 }
 
-.content_band.alt{
+div.content_band.alt{
     background-color: rgb(243,243,243);
 }
 
-.content_area {
+div.content_area {
     position: relative;
-    width: 1136px;
+    max-width: 1136px;
     padding-top: 20px;
     margin-bottom: 20px;
     margin: auto;
 }
 
-#title_band {
+div#title_band {
     position: relative;
     background-color: rgb(243,243,243);
     margin: 0;
-    padding: 0;
+    padding: 0 20px;
     min-height: 475px;
     overflow: hidden;
 }
 
-#title_logo {
+div#title_logo {
     position: absolute;
     top: -50px;
     right: 140px;
@@ -133,19 +133,36 @@ a.blue_link::after {
     text-align: right;
 }
 
-#title_logo img {
+div#title_logo img {
     display: inline-block;
     position: relative;
     width: 1960px;
     height: auto;
 }
 
-#title_content #title_content_left {
-    width: 650px;
+div#title_content #title_content_left {
+    max-width: 650px;
     line-height: 2.0;
 }
 
-#title_content #title_content_left #title_description {
+div#title_content #title_content_left #title_description {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+div.card_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.card_wrapper div.card {
+    position: relative;
+    max-width: 25%;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 3px;
 }
