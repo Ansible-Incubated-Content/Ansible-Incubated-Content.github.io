@@ -1,5 +1,5 @@
-# Ansible-Incubated-Content.github.io
+# ansible-content-lab.github.io
 
-[GitHub.io pages](https://ansible-incubated-content.github.io) for Ansible Incubated Cloud Content.
+[GitHub.io pages](https://ansible-content-lab.github.io) for Ansible Content Lab.
 
 These pages are maintained by the Ansible team at Red Hat.
