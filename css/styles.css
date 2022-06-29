@@ -43,6 +43,16 @@ p {
     line-height: 2.0;
 }
 
+ol, ul {
+    font-family: "Red Hat Display","RedHatDisplay","Overpass",Overpass,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 2.0;
+}
+
+li {
+    margin: 10px 0;;
+}
+
 a.red_button {
     position: relative;
     display: inline-block;
@@ -93,9 +103,51 @@ div.center_band {
 div.nav_band {
     position: relative;
     z-index: 1000;
-    padding: 20px;
     padding-left: 32px;
+    height: 72px;
     background-color: #151515;
+}
+
+div.nav_band svg {
+    padding: 20px;
+    float: left;
+}
+
+div.nav_band ul.nav_menu {
+    position: relative;
+    height: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+}
+
+div.nav_band ul.nav_menu li {
+    position: relative;
+    display: inline-block;
+    padding: 17px 20px 0 20px;
+    margin: 0 5px;
+    border-top: solid 3px transparent;
+}
+
+div.nav_band ul.nav_menu li:hover {
+    border-top: solid 3px red;
+    color: red;
+}
+
+div.nav_band ul.nav_menu li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin: auto;
+    color: rgb(243,243,243);
+    background: none;
+}
+
+div.border_box {
+    border: 1px solid #d2d3d5;
+    padding: 20px;
 }
 
 div.content_band {
