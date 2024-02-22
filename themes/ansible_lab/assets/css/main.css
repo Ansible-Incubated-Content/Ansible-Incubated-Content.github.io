@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: "Red Hat Text", "RedHatText", "Overpass", Overpass, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+h2 {
+  font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h2.center {
+  margin: 20px auto;
+}
+
+h2.center.max_width {
+  max-width: 600px;
+}
+
+h4 {
+  margin-bottom: 20px;
+  color: #e00;
+  font-family: RedHatText, "Red Hat Text", Overpass, Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+p {
+  font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 2.0;
+}
+
+ol, ul {
+  font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 2.0;
+}
+
+li {
+  margin: 10px 0;
+  ;
+}
+
+a.red_button {
+  position: relative;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e00;
+}
+
+a.blue_link {
+  font-size: 1em;
+  font-weight: 700;
+  color: #06c;
+  text-decoration: none;
+}
+
+a.blue_link::after {
+  content: "\2794";
+  margin-left: 10px;
+}
+
+.band {
+  position: relative;
+  margin: 0;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center_max_width {
+  text-align: center;
+  max-width: 600px;
+}
+
+div.center_band {
+  width: 65%;
+  margin: auto;
+}
+
+div.nav_band {
+  position: relative;
+  z-index: 1000;
+  padding-left: 32px;
+  height: 72px;
+  background-color: #151515;
+}
+
+div.nav_band svg {
+  padding: 20px;
+  float: left;
+}
+
+div.nav_band ul.nav_menu {
+  position: relative;
+  height: 100%;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+}
+
+div.nav_band ul.nav_menu li {
+  position: relative;
+  display: inline-block;
+  padding: 17px 20px 0 20px;
+  margin: 0 5px;
+  border-top: solid 3px transparent;
+}
+
+div.nav_band ul.nav_menu li:hover {
+  border-top: solid 3px red;
+  color: red;
+}
+
+div.nav_band ul.nav_menu li a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+  color: rgb(243, 243, 243);
+  background: none;
+}
+
+div.border_box {
+  border: 1px solid #d2d3d5;
+  padding: 20px;
+}
+
+div.content_band {
+  position: relative;
+  margin: 0;
+  padding: 20px;
+}
+
+div.content_band.alt {
+  background-color: rgb(243, 243, 243);
+}
+
+div.content_area {
+  position: relative;
+  max-width: 1136px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+div#title_band {
+  position: relative;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0 20px;
+  min-height: 475px;
+  overflow: hidden;
+}
+
+div#title_logo {
+  position: absolute;
+  top: -50px;
+  right: 140px;
+  width: 100%;
+  text-align: right;
+}
+
+div#title_logo img {
+  display: inline-block;
+  position: relative;
+  width: 1960px;
+  height: auto;
+}
+
+div#title_content #title_content_left {
+  max-width: 650px;
+  line-height: 2.0;
+}
+
+div#title_content #title_content_left #title_description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.card_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+div.card_wrapper div.card {
+  position: relative;
+  max-width: 25%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 3px;
+}

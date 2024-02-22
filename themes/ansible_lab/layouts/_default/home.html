@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <div class="content_band alt" id="title_band">
+    <div id="title_logo">
+        <img src="https://www.redhat.com/cms/managed-files/AAP2_hero_3As-from-right_light_1440x400.svg?itok=HNrcO57l">
+    </div>
+    <div class="content_area" id="title_content">
+        <div class="" id="title_content_left">
+            <h4 class="section_title"> Ansible Automation Platform </h4>
+            <h1 class="page_title" id="page_title"> Ansible Content Lab for Cloud Automation </h1>
+            <div id="title_description"> The Ansible Content Lab for Cloud Automation is an initiative to develop content for cloud automation use cases that have significant impact and value for our users. The content will potentially mature into formalized content. This initiative fits between community content and validated content. We are actively looking for use case submissions to be incubated into validated content. </div>
+            <a href="https://forms.gle/xpto923WVNELTmhB8" class="red_button" target="_blank"> Submit Idea </a>
+        </div>
+    </div>
+  </div>
+  {{ partial "main.html" . }}
+  <div class="content_band alt">
+    <div class="content_area" id="value_cards">
+        <h2 class="center max_width">Why Participate?</h2>
+        <div class="card_wrapper">
+            <div class="card">
+                <h3>Deliver Value to Cloud Automation</h3>
+                <p> Help develop bespoke cloud automation content that delivers meaningful value for cloud automation use cases. </p>
+            </div>
+            <div class="card">
+                <h3>Earn Cloud Automation Merchandise</h3>
+                <p> Participants will be eligible to receive Ansible cloud automation merchandise if their use cases are accepted to the lab. </p>
+            </div>
+            <div class="card">
+                <h3>Create Solutions to Your Problems</h3>
+                <p> Help automate your cloud use case to solve the problem others are likely encountering. </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="content_band">
+      <div class="content_area" id="participant_cards">
+          <h2 class="center max_width">Use Cases In Incubation</h2>
+          <div class="card_wrapper">
+              <div class="card">
+                  <h3> AWS Deployment Roles </h3>
+                  <p> The Ansible team is developing turn-key content for AWS such as network peering examples with DMZ and private networks. </p>
+              </div>
+              <div class="card">
+                  <h3> Azure Deployment Roles </h3>
+                  <p> The Ansible team is developing turn-key content for Azure such as transit networking on Ansible on Cloud configuration. </p>
+              </div>
+              <div class="card">
+                  <h3> Ansible Configuration as Code </h3>
+                  <p> The Ansible team is developing examples for configuration Ansible Automation Controller as code to make the setup of AAP quicker, to have backups of configuration, and for quick migration between AAP deployments. </p>
+              </div>
+          </div>
+          <div class="center">
+              <a class="blue_link" id="learn_more_link" href="https://github.com/ansible-content-lab">View our projects on GitHub</a>
+          </div>
+      </div>
+  </div>
+{{ end }}

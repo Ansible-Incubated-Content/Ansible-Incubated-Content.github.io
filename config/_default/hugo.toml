@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Ansible Content Lab for Cloud Automation'
+theme = 'ansible_lab'
