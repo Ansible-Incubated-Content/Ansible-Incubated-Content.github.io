@@ -1,10 +1,9 @@
 +++
-title = 'Terms of Service'
+title = 'Participation Terms'
 date = 2024-02-21T08:29:18-05:00
 draft = false
+layout = "home"
 +++
-
-## Participation Terms
 
 * You agree to all terms in the [Ansible Contributors License Agreement][license_agreement]
 * By contributing you agree that these contributions are your own (or approved by your employer) and you grant a full, complete, irrevocable copyright license to all users and developers of the project, present and future, pursuant to the license of the project.
