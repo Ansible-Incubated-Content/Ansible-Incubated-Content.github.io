@@ -1,0 +1,4 @@
+baseURL = 'https://cloud.lab.ansible.io/'
+languageCode = 'en-us'
+title = 'Ansible Content Lab for Cloud Automation'
+theme = 'ansible_lab'

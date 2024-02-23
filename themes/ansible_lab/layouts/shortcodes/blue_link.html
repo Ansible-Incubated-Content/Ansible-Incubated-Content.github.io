@@ -1,0 +1,3 @@
+<div class="center">
+    <a href="{{ index .Params 0 }}" class="blue_link" id="{{ if len .Params | eq 2 }}{{ index .Params 1 }}{{ end }}" >{{ .Inner }}</a>
+</div>
