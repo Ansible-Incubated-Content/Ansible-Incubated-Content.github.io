@@ -7,7 +7,9 @@
             <h4 class="section_title"> {{ .Scratch.Get "section" }} </h4>
             <h1 class="page_title" id="page_title"> {{ .Title }} </h1>
             <div id="title_description"> {{ .Scratch.Get "text" }} </div>
-            <a href="https://forms.gle/xpto923WVNELTmhB8" class="red_button" target="_blank"> Submit Idea </a>
+            {{ if (.Scratch.Get "button") }}
+                <a href="https://forms.gle/xpto923WVNELTmhB8" class="red_button" target="_blank"> Submit Idea </a>
+            {{ end }}
         </div>
     </div>
 </div>

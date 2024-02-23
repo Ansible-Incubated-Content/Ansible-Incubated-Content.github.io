@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{ .Scratch.Set "section" "Ansible Automation Platform" }}
   {{ .Scratch.Set "text" "The Ansible Content Lab for Cloud Automation is an initiative to develop content for cloud automation use cases that have significant impact and value for our users. The content will potentially mature into formalized content. This initiative fits between community content and validated content. We are actively looking for use case submissions to be incubated into validated content." }}
+  {{ .Scratch.Set "button" true }}
   {{ partial "ansible_super.html" . }}
   {{ partial "main.html" . }}
   {{ partial "value_cards.html" . }}
