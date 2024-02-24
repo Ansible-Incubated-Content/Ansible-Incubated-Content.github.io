@@ -5,6 +5,7 @@ body {
 }
 
 h1 {
+  font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
   font-size: 2.5rem;
   margin-bottom: 20px;
   font-weight: 300;
@@ -15,7 +16,7 @@ h2 {
   font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
   font-size: 2.25rem;
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
 }
 
@@ -27,10 +28,14 @@ h2.center.max_width {
   max-width: 600px;
 }
 
+h3 {
+  font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
+}
+
 h4 {
   margin-bottom: 20px;
   color: #e00;
-  font-family: RedHatText, "Red Hat Text", Overpass, Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
@@ -38,13 +43,13 @@ h4 {
 }
 
 p {
-  font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
+  font-family: "Red Hat Text", "RedHatText", "Overpass", Overpass, Arial, sans-serif;
   font-size: 1rem;
   line-height: 2.0;
 }
 
 ol, ul {
-  font-family: "Red Hat Display", "RedHatDisplay", "Overpass", Overpass, Arial, sans-serif;
+  font-family: "Red Hat Text", "RedHatText", "Overpass", Overpass, Arial, sans-serif;
   font-size: 1rem;
   line-height: 2.0;
 }
@@ -52,6 +57,10 @@ ol, ul {
 li {
   margin: 10px 0;
   ;
+}
+
+a {
+  text-decoration: none;
 }
 
 a.red_button {
@@ -64,7 +73,6 @@ a.red_button {
   font-weight: 700;
   border-radius: 3px;
   cursor: pointer;
-  text-decoration: none;
   color: #fff;
   background-color: #e00;
 }
@@ -73,12 +81,19 @@ a.blue_link {
   font-size: 1em;
   font-weight: 700;
   color: #06c;
-  text-decoration: none;
 }
 
 a.blue_link::after {
   content: "\2794";
   margin-left: 10px;
+}
+
+a.header_link {
+  color: #06c;
+}
+
+a.header_link:hover {
+  text-decoration: underline;
 }
 
 .band {
@@ -172,9 +187,8 @@ div.content_area {
 div#title_band {
   position: relative;
   background-color: rgb(243, 243, 243);
-  margin: 0;
-  padding: 0 20px;
-  min-height: 475px;
+  margin: 0 0 20px 0;
+  padding: 0 20px 40px 20px;
   overflow: hidden;
 }
 
@@ -184,6 +198,7 @@ div#title_logo {
   right: 140px;
   width: 100%;
   text-align: right;
+  z-index: 999;
 }
 
 div#title_logo img {
@@ -201,6 +216,11 @@ div#title_content #title_content_left {
 div#title_content #title_content_left #title_description {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+div.content_area h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 div.card_wrapper {

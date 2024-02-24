@@ -2,7 +2,7 @@
 title = 'Participation Terms'
 date = 2024-02-21T08:29:18-05:00
 draft = false
-layout = "home"
+summary = 'The following participation terms outline the operational structure of the Ansible Content Lab for Cloud Automation.'
 +++
 
 * You agree to all terms in the [Ansible Contributors License Agreement][license_agreement]

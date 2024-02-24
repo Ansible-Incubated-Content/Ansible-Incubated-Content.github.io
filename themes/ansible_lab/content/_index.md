@@ -4,6 +4,9 @@ description = 'A program from Ansible to bring cloud content to life'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 layout = "home"
+summary = 'The Ansible Content Lab for Cloud Automation is an initiative to develop content for cloud automation use cases that have significant impact and value for our users. The content will potentially mature into formalized content. This initiative fits between community content and validated content. We are actively looking for use case submissions to be incubated into validated content.'
+[params]
+    button = true
 +++
 
 ### What is Incubated Content?

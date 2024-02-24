@@ -4,10 +4,16 @@
     </div>
     <div class="content_area" id="title_content">
         <div class="" id="title_content_left">
-            <h4 class="section_title"> {{ .Scratch.Get "section" }} </h4>
+            <h4 class="section_title"> 
+                {{ if .Params.subtitle }}
+                    {{ .Params.subtitle }}
+                {{ else }}
+                    Ansible Automation Platform 
+                {{ end }}
+            </h4>
             <h1 class="page_title" id="page_title"> {{ .Title }} </h1>
-            <div id="title_description"> {{ .Scratch.Get "text" }} </div>
-            {{ if (.Scratch.Get "button") }}
+            <div id="title_description"> {{ .Summary }} </div>
+            {{ if (.Params.button) }}
                 <a href="https://forms.gle/xpto923WVNELTmhB8" class="red_button" target="_blank"> Submit Idea </a>
             {{ end }}
         </div>
