@@ -11,6 +11,6 @@ These examples are intended to be modified and updated for individual uses as th
 
 The Ansible example uses Ansible collections, like `amazon.aws` to deploy the AWS infrastructure to run AAP.
 
-### CloudFormation Example
+### Terraform Example
 
-The CloudFormation example uses CF templates to deploy AWS infrastructure.
+The Terraform example uses CF templates to deploy AWS infrastructure.
