@@ -1,7 +1,7 @@
 +++
 title = 'AWS Terraform Deployment'
 date = 2024-02-26T17:07:48-05:00
-draft = false
+draft = true
 weight = 2
 summary = 'Use Terraform to provision AWS infrastructure, then the Ansible Automation Platform installer to install AAP on the provisioned infrastructure.'
 +++
