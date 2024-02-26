@@ -1,13 +1,10 @@
 {{ define "main" }}
-  {{ .Scratch.Set "section" "Ansible Automation Platform" }}
-  {{ .Scratch.Set "text" "The Ansible Content Lab for Cloud Automation incubates different content collections. Select a collection to learn more." }}
-  {{ .Scratch.Set "button" true }}
   {{ partial "ansible_super.html" . }}
   <div class="content_band">
     <div class="content_area" id="main_content">
         {{ .Content }}
         {{ range .Pages }}
-          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+          <h2><a class="header_link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
           {{ .Summary }}
         {{ end }}
     </div>
