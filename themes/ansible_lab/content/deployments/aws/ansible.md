@@ -1,8 +1,9 @@
 +++
-title = 'AWS Deployment Examples'
+title = 'AWS Ansible Deployment'
 date = 2024-02-24T09:39:51-05:00
 draft = false
-summary = 'AWS examples for deploying a self-managed Ansible Automation Platform instance on EC2 and other AWS infrastructure.'
+weight = 1
+summary = 'Use Ansible to run a playbook that will provision AWS infrastructure and install Ansible Automation Platform on that infrastructure in a single command.'
 +++
 
 These examples are intended to be modified and updated for individual uses as there is no one-size-fits-all deployment model for Ansible.  The  machine shapes, the database service, and networking configuration will all depend on organizational circumstances.
@@ -10,7 +11,3 @@ These examples are intended to be modified and updated for individual uses as th
 ### Ansible Example
 
 The Ansible example uses Ansible collections, like `amazon.aws` to deploy the AWS infrastructure to run AAP.
-
-### Terraform Example
-
-The Terraform example uses CF templates to deploy AWS infrastructure.
